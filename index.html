@@ -6,48 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leandro Teves</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <section id="about-me"></section> 
-    <nav>
-      <div class="personal__logo">Leandro Teves</div>
-      <ul class="nav__link--list">
-        <li>
-            <a href="" class="
-            nav__link--ancher
-            link__hover-effect
-            link__hover-effect--black
-            ">languages</a>
-        </li>
-        <li>
-            <a href="" class="nav__link--ancher
-            link__hover-effect
-            link__hoveer-effect--black
-            ">Projects</a>
-        </li>
-        <li>
-            <a href="" class="nav__link--ancher
-            nav__link--ancher-primary
-            ">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="flex-1">
-    <div class="about-me__info row">
-    <div class="about-me__info--container">
-    <figure class="about-me__picture--mask">
-      <img src="./assets/aaaaa.PNG" alt="Picture of Me!">
-    </figure>
-    <h1 class="about-me__info--title">
-      Welcome to my webpage! I'm <span class="text--purple"> Leandro Teves</span> 👋
-    </h1>
-    <p class="about-me__info--para">
-      I'm a <strong class="text--purple">frontend software engineer</strong> with a strong passion for building responsive and performant web applications with great user experiences that positively impacts the world
-    </p>
-  </div>
-</div>
-</div>
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Leandro Teves</div>
+        <ul class="nav__link--list">
+          <li>
+            <a
+              href=""
+              class="nav__link--ancher link__hover-effect link__hover-effect--black"
+              >languages</a>     
+          </li>
+          <li>
+            <a
+              href=""
+              class="nav__link--ancher link__hover-effect link__hoveer-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav__link--ancher nav__link--ancher-primary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                src="./assets/aaaaa.PNG"
+                class="about-me__picture"
+                alt="Picture of Me!"
+              />
+            </figure>
+            <h1 class="about-me__info--title">
+              Welcome to my webpage! I'm
+              <span class="text--purple"> Leandro Teves</span> 👋
+            </h1>
+            <p class="about-me__info--para">
+              I'm a
+              <strong class="text--purple"
+                >Junior frontend software engineer</strong
+              >
+              that is willing to build a responsive website which allows the
+              user to have good experience.
+            </p>
+            <div class="about-me__links">
+              <a href="" class="about-me__link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="" class="about-me__link">
+                <i class="fab fa-github"></i>
+              </a>
 
-</section>
+              <a href="" class="about-me__link">
+                <i class="far fa-envelope"></i>
+              </a>
+              <a href="" class="about-me__link">
+                <i class="fas fa-file-pdf"></i>
+              </a>
+            </div>
+          </div>
+          <figure class="about-me__img--container">
+            <img
+              src="assets/undraw.web.developmentimg(2).svg"
+              class="about-me__img"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="text--purple"> technology stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="Html Logo"
+                  class="language__img"
+                />
+              </figure>
+              
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="CSS Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="JavaScript Logo"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  alt="React Logo"
+                  class="language__img"
+                />
+                <span class="language__name">React</span>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            My <span class="text--purple">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/undraw_proud_coder_re_exuy.svg"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">First project</h3>
+                  <h4 class="project__description--sub-title">HTML & CSS</h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate reiciendis pariatur tempora aperiam dicta, iure
+                    amet assumenda maiores asperiores fuga.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://github.com/LeandroTeves/myFirstGithubProject" target="_blank" class="project__description--link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leandroteves.github.io/myFirstGithubProject/" target="_blank" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/undraw_proud_coder_re_exuy.svg"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">First project</h3>
+                  <h4 class="project__description--sub-title">HTML & CSS</h4>
+                  <p class="project__description--para">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate reiciendis pariatur tempora aperiam dicta, iure
+                    amet assumenda maiores asperiores fuga.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://github.com/LeandroTeves/firstwebsitepractice" target="_blank" class="project__description--link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leandroteves.github.io/firstwebsitepractice/" target="_blank" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
